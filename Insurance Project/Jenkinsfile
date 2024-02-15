@@ -14,7 +14,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/Dhakshana1197/Banking-and-Finance-Project.git'
+                git 'https://github.com/Dhakshana1197/Insurance_Project.git'
                 //https://github.com/Dhakshana1197/Banking-and-Finance-Project.git'
             }
 		}
